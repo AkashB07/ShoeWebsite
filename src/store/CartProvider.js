@@ -6,9 +6,18 @@ const CartProvider = props => {
 
     const [DUMMY_SHOES, updateDummyShoe] = useState([{
         id: 's1',
-        shoename: 'Navy blue',
+        shoename: 'Navy blue Aramanis Shoe',
         description: '100% cotton',
         price: 1299,
+        largesize: 'Large 9',
+        mediumsize: 'Medium 7',
+        smallsize: 'Small 5'
+      },
+      {
+        id: 's2',
+        shoename: 'Guccui  Shoe',
+        description: '100% cotton',
+        price: 1999,
         largesize: 'Large 9',
         mediumsize: 'Medium 7',
         smallsize: 'Small 5'

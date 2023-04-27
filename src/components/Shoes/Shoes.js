@@ -1,11 +1,11 @@
 import { Fragment } from "react";
-import ShoesSummary from "./ShoesSummary";
+import AddShoes from "./AddShoes"
 import AvailableShoes from "./AvailableShoes";
 const Shoes = (props) => {
     console.log(props)
     return (
         <Fragment>
-            <ShoesSummary/>
+            <AddShoes/>
             <AvailableShoes/>
         </Fragment>
     );

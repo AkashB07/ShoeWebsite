@@ -4,20 +4,6 @@ import Card from "../UI/Card";
 import ShoeItem from "./ShoeItem/ShoeItem";
 import CartContext from "../../store/cart-context";
 
-
-
-// const DUMMY_SHOES = [
-//     {
-//       id: 's1',
-//       shoename: 'Navy blue',
-//       description: '100% cotton',
-//       price: 1299,
-//       largesize: 'Large 9',
-//       mediumsize: 'Medium 7',
-//       smallsize: 'Small 5'
-//     }
-//   ];
-
 const AvailableShoes = () => {
   const cartcntx = useContext(CartContext);
   const DUMMY_SHOES = cartcntx.DUMMY_SHOES;

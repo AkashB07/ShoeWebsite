@@ -3,7 +3,7 @@ import ShoeItemForm from './ShoeItemForm';
 
 
 const ShoeItem = (props) => {
-  const price =  `$ ${props.price.toFixed(2)}`;
+  const price =  `₹ ${props.price.toFixed(2)}`;
     return (
     <li className={classes.shoe}>
       <div>

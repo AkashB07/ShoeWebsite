@@ -39,7 +39,7 @@ const Cart = props => {
                     <div>
                         <h2>{item.shoename}</h2>
                         <div className={classes.summary}>
-                            <span className={classes.price}>₹{item.price}</span><br/>
+                            <span className={classes.price}>₹ {item.price}</span><br/>
                             <span className={classes.quantity}>x L {item.largequantity || 0}</span>
                             <span className={classes.quantity}>x M {item.mediumquantity || 0}</span>
                             <span className={classes.quantity}>x S {item.smallquantity || 0 }</span>
@@ -62,7 +62,7 @@ const Cart = props => {
         <Modal onClose={props.onClose}>
             {cartItems}
             <div className={classes.total}>
-                <span>Total Amount - ${total.toFixed(2)}</span>
+                <span>Total Amount - ₹ {total.toFixed(2)}</span>
             </div>
             <div className={classes.actions}>
                 <button className={classes['button--alt']} onClick={props.onClose}>Close</button>
